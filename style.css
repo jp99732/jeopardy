@@ -1,0 +1,150 @@
+/*
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #1e3a5f;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header styles */
+header {
+  background-color: #294e80;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+#play {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#play:hover {
+  background-color: #e6b800;
+}
+
+/* Game board styles */
+#game-board {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  flex-grow: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #3b5998;
+}
+
+th {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Georgia', serif;
+  text-transform: capitalize;
+  background-color: #3b5998;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+tbody td {
+  background-color: #2e4a7b;
+  color: #ffcc00;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.1em;
+  border: 1px solid #3b5998;
+  cursor: pointer;
+}
+
+tbody td:hover {
+  background-color: #4169e1;
+}
+
+.clue.viewed {
+  background-color: #8b9dc3;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Active clue styles */
+#active-clue {
+  margin: 20px auto;
+  background-color: #3b5998;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  width: 80%;
+}
+
+#active-clue button {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#active-clue button:hover {
+  background-color: #e6b800;
+}
+
+#score-box {
+  background-color: #3b5998;
+  color: #ffcc00;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 10px auto;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+}
+
+/* Spinner styles */
+#spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.disabled {
+  display: none;
+}
+
+/* Footer styles */
+footer {
+  background-color: #294e80;
+  color: #ddd;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
